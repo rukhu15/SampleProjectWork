@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-16T15:12:17 IST" name="RegressionSuit" finished-at="2022-11-16T15:14:30 IST" duration-ms="133155">
+    <groups>
+      <group name="Sanity">
+        <method signature="VarifyAddToCartButtonAndOffersForProduct.VarifyAddToCartButton()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@4d154ccd]" name="VarifyAddToCartButton" class="testNGClasses.VarifyAddToCartButtonAndOffersForProduct"/>
+        <method signature="VarifyAddToCartButtonAndOffersForProduct.VarifyAddToCartButton()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@7ef82753]" name="VarifyAddToCartButton" class="testNGClasses.VarifyAddToCartButtonAndOffersForProduct"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="VarifyAddToCartButtonAndOffersForProduct.VarifyOffersForProducts()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@4d154ccd]" name="VarifyOffersForProducts" class="testNGClasses.VarifyAddToCartButtonAndOffersForProduct"/>
+        <method signature="VarifyAddToCartButtonAndOffersForProduct.VarifyOffersForProducts()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@7ef82753]" name="VarifyOffersForProducts" class="testNGClasses.VarifyAddToCartButtonAndOffersForProduct"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-11-16T15:12:17 IST" name="EdgeTest" finished-at="2022-11-16T15:13:30 IST" duration-ms="72585">
+      <class name="testNGClasses.VarifyAddToCartButtonAndOffersForProduct">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@4d154ccd]" started-at="2022-11-16T15:12:17 IST" name="launchBrowser" finished-at="2022-11-16T15:12:20 IST" duration-ms="3221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@4d154ccd]" started-at="2022-11-16T15:12:23 IST" name="createPOMObjects" finished-at="2022-11-16T15:12:23 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="selectProductYouWantToAdd()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@4d154ccd]" started-at="2022-11-16T15:12:23 IST" name="selectProductYouWantToAdd" finished-at="2022-11-16T15:12:41 IST" duration-ms="18055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductYouWantToAdd -->
+        <test-method signature="VarifyAddToCartButton()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@4d154ccd]" started-at="2022-11-16T15:12:41 IST" name="VarifyAddToCartButton" finished-at="2022-11-16T15:12:54 IST" duration-ms="13184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VarifyAddToCartButton -->
+        <test-method is-config="true" signature="closeTheTabAndLogOut(org.testng.ITestResult)[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@4d154ccd]" started-at="2022-11-16T15:12:54 IST" name="closeTheTabAndLogOut" finished-at="2022-11-16T15:13:00 IST" duration-ms="6046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VarifyAddToCartButton status=SUCCESS method=VarifyAddToCartButtonAndOffersForProduct.VarifyAddToCartButton()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@4d154ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheTabAndLogOut -->
+        <test-method is-config="true" signature="selectProductYouWantToAdd()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@4d154ccd]" started-at="2022-11-16T15:13:00 IST" name="selectProductYouWantToAdd" finished-at="2022-11-16T15:13:14 IST" duration-ms="14314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductYouWantToAdd -->
+        <test-method signature="VarifyOffersForProducts()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@4d154ccd]" started-at="2022-11-16T15:13:14 IST" name="VarifyOffersForProducts" finished-at="2022-11-16T15:13:23 IST" duration-ms="9149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VarifyOffersForProducts -->
+        <test-method is-config="true" signature="closeTheTabAndLogOut(org.testng.ITestResult)[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@4d154ccd]" started-at="2022-11-16T15:13:23 IST" name="closeTheTabAndLogOut" finished-at="2022-11-16T15:13:29 IST" duration-ms="5728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VarifyOffersForProducts status=SUCCESS method=VarifyAddToCartButtonAndOffersForProduct.VarifyOffersForProducts()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@4d154ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheTabAndLogOut -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@4d154ccd]" started-at="2022-11-16T15:13:29 IST" name="closeTheBrowser" finished-at="2022-11-16T15:13:29 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- testNGClasses.VarifyAddToCartButtonAndOffersForProduct -->
+      <class name="testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@41a0aa7d]" started-at="2022-11-16T15:12:20 IST" name="launchBrowser" finished-at="2022-11-16T15:12:23 IST" duration-ms="2425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@41a0aa7d]" started-at="2022-11-16T15:12:23 IST" name="createPOMObjects" finished-at="2022-11-16T15:12:23 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@41a0aa7d]" started-at="2022-11-16T15:12:23 IST" name="login" finished-at="2022-11-16T15:12:30 IST" duration-ms="7483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="checkItemsOrderedInAYear()[pri:-1, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@41a0aa7d]" started-at="2022-11-16T15:12:30 IST" name="checkItemsOrderedInAYear" finished-at="2022-11-16T15:12:37 IST" duration-ms="7175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkItemsOrderedInAYear -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult)[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@41a0aa7d]" started-at="2022-11-16T15:12:37 IST" name="logOut" finished-at="2022-11-16T15:12:40 IST" duration-ms="2686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkItemsOrderedInAYear status=SUCCESS method=VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear.checkItemsOrderedInAYear()[pri:-1, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@41a0aa7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@41a0aa7d]" started-at="2022-11-16T15:12:40 IST" name="login" finished-at="2022-11-16T15:12:50 IST" duration-ms="10132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="VarifyUsernameAfterLogin()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@41a0aa7d]" started-at="2022-11-16T15:12:50 IST" name="VarifyUsernameAfterLogin" finished-at="2022-11-16T15:12:54 IST" duration-ms="3505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VarifyUsernameAfterLogin -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult)[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@41a0aa7d]" started-at="2022-11-16T15:12:54 IST" name="logOut" finished-at="2022-11-16T15:12:56 IST" duration-ms="2140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VarifyUsernameAfterLogin status=SUCCESS method=VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear.VarifyUsernameAfterLogin()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@41a0aa7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="nullobjectReferences()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@41a0aa7d]" started-at="2022-11-16T15:12:56 IST" name="nullobjectReferences" finished-at="2022-11-16T15:12:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nullobjectReferences -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@41a0aa7d]" started-at="2022-11-16T15:13:29 IST" name="closeTheBrowser" finished-at="2022-11-16T15:13:30 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2022-11-16T15:13:30 IST" name="ChromeTest" finished-at="2022-11-16T15:14:30 IST" duration-ms="60544">
+      <class name="testNGClasses.VarifyAddToCartButtonAndOffersForProduct">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@7ef82753]" started-at="2022-11-16T15:13:30 IST" name="launchBrowser" finished-at="2022-11-16T15:13:30 IST" duration-ms="723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@7ef82753]" started-at="2022-11-16T15:13:31 IST" name="createPOMObjects" finished-at="2022-11-16T15:13:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="selectProductYouWantToAdd()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@7ef82753]" started-at="2022-11-16T15:13:31 IST" name="selectProductYouWantToAdd" finished-at="2022-11-16T15:13:42 IST" duration-ms="11065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductYouWantToAdd -->
+        <test-method signature="VarifyAddToCartButton()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@7ef82753]" started-at="2022-11-16T15:13:42 IST" name="VarifyAddToCartButton" finished-at="2022-11-16T15:13:53 IST" duration-ms="11170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VarifyAddToCartButton -->
+        <test-method is-config="true" signature="closeTheTabAndLogOut(org.testng.ITestResult)[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@7ef82753]" started-at="2022-11-16T15:13:53 IST" name="closeTheTabAndLogOut" finished-at="2022-11-16T15:13:59 IST" duration-ms="5936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VarifyAddToCartButton status=SUCCESS method=VarifyAddToCartButtonAndOffersForProduct.VarifyAddToCartButton()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@7ef82753] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheTabAndLogOut -->
+        <test-method is-config="true" signature="selectProductYouWantToAdd()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@7ef82753]" started-at="2022-11-16T15:13:59 IST" name="selectProductYouWantToAdd" finished-at="2022-11-16T15:14:10 IST" duration-ms="10873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductYouWantToAdd -->
+        <test-method signature="VarifyOffersForProducts()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@7ef82753]" started-at="2022-11-16T15:14:10 IST" name="VarifyOffersForProducts" finished-at="2022-11-16T15:14:16 IST" duration-ms="6314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VarifyOffersForProducts -->
+        <test-method is-config="true" signature="closeTheTabAndLogOut(org.testng.ITestResult)[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@7ef82753]" started-at="2022-11-16T15:14:16 IST" name="closeTheTabAndLogOut" finished-at="2022-11-16T15:14:22 IST" duration-ms="5470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VarifyOffersForProducts status=SUCCESS method=VarifyAddToCartButtonAndOffersForProduct.VarifyOffersForProducts()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@7ef82753] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheTabAndLogOut -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:testNGClasses.VarifyAddToCartButtonAndOffersForProduct@7ef82753]" started-at="2022-11-16T15:14:22 IST" name="closeTheBrowser" finished-at="2022-11-16T15:14:26 IST" duration-ms="4159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- testNGClasses.VarifyAddToCartButtonAndOffersForProduct -->
+      <class name="testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@235ecd9f]" started-at="2022-11-16T15:13:30 IST" name="launchBrowser" finished-at="2022-11-16T15:13:31 IST" duration-ms="664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@235ecd9f]" started-at="2022-11-16T15:13:31 IST" name="createPOMObjects" finished-at="2022-11-16T15:13:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@235ecd9f]" started-at="2022-11-16T15:13:31 IST" name="login" finished-at="2022-11-16T15:13:37 IST" duration-ms="6450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="checkItemsOrderedInAYear()[pri:-1, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@235ecd9f]" started-at="2022-11-16T15:13:37 IST" name="checkItemsOrderedInAYear" finished-at="2022-11-16T15:13:43 IST" duration-ms="5571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkItemsOrderedInAYear -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult)[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@235ecd9f]" started-at="2022-11-16T15:13:43 IST" name="logOut" finished-at="2022-11-16T15:13:44 IST" duration-ms="1367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkItemsOrderedInAYear status=SUCCESS method=VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear.checkItemsOrderedInAYear()[pri:-1, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@235ecd9f]" started-at="2022-11-16T15:13:44 IST" name="login" finished-at="2022-11-16T15:13:50 IST" duration-ms="5290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="VarifyUsernameAfterLogin()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@235ecd9f]" started-at="2022-11-16T15:13:50 IST" name="VarifyUsernameAfterLogin" finished-at="2022-11-16T15:13:53 IST" duration-ms="2880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VarifyUsernameAfterLogin -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult)[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@235ecd9f]" started-at="2022-11-16T15:13:53 IST" name="logOut" finished-at="2022-11-16T15:13:54 IST" duration-ms="1446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VarifyUsernameAfterLogin status=SUCCESS method=VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear.VarifyUsernameAfterLogin()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="nullobjectReferences()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@235ecd9f]" started-at="2022-11-16T15:13:54 IST" name="nullobjectReferences" finished-at="2022-11-16T15:13:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nullobjectReferences -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear@235ecd9f]" started-at="2022-11-16T15:14:26 IST" name="closeTheBrowser" finished-at="2022-11-16T15:14:30 IST" duration-ms="4167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- testNGClasses.VarifyUsernameAdressAfterSignInAndCheckItemsOrderedInAYear -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- RegressionSuit -->
+</testng-results>
